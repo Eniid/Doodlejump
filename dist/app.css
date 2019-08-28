@@ -1,0 +1,59 @@
+html body{background-image:url(assets/background.png)}
+
+@font-face {
+    font-family: 'DoodleJump';
+    src: url('hinted-DoodleJump.eot');
+    src: url('hinted-DoodleJump.eot?#iefix') format('embedded-opentype'),
+    url('hinted-DoodleJump.woff') format('woff'),
+    url('hinted-DoodleJump.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+h1 {
+    font-family: 'DoodleJump';
+    font-size: 30px;
+    text-align: center;
+    margin: 45px;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+select {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 50px;
+    margin-top: 20px;
+    font-family: 'DoodleJump';
+    font-size: 17px;
+
+
+}
+
+
+.lien {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+a {
+    color: #111111;
+    background-color: rgba(224, 255, 28, 0.73);
+    width: 200px;
+    padding: 10px 60px;
+    font-family: 'DoodleJump';
+    border-radius: 50px;
+    text-decoration: none;
+
+}
+
+a:hover {
+    background-color: rgba(187, 255, 21, 0.73);
+
+
+}
